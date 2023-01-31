@@ -16,6 +16,8 @@ const Weath=()=>{
     return(
         <>
         <div className="box">
+        <h1 className="style">Weather ForeCast App</h1><br/>
+    
         <div className="inputData">
             <input
             type="search"
@@ -27,7 +29,7 @@ const Weath=()=>{
             />
         </div>
         {!city ? (
-            <p className="errorMsg"> NO DATA FOUND </p>
+            <p className="errorMsg">Not Found Data </p>
         ) : (
             <div>
             <div className="info">

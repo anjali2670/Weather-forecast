@@ -112,3 +112,8 @@ input{
         transform: rotate(360deg);
     }
 }
+.style{
+    color: antiquewhite;
+    margin-top: 12px;
+    box-shadow: 2px 2px 2px black;
+}
